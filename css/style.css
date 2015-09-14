@@ -1,0 +1,144 @@
+/***** CLEARFIX is applied to the parent of floated elements *************/
+/*************************************************************************/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/***** GENERIC STYLES *************/
+/**********************************/
+body{
+	background-color: #f0ede4;
+	font-family: Times New Roman, serif;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	color: #af5017;
+	text-align: center;
+
+}
+
+.main_img img{
+	width: 320px;
+}
+
+.membership{
+	background-image: url(../img/pattern_1.jpg);
+	background-repeat: repeat-x;
+	background-origin: bottom;
+	margin-top: 100px;
+	font-family: sans-serif;
+	color: #af5017;
+}
+
+.membership img{ 
+	position: relative;
+	bottom: 85px;
+	left: 50px;
+}
+
+/*.membership p{ 
+	position: relative;
+	bottom: 85px;
+	left: 50px;
+	clear: both;
+}*/
+
+.foot{
+	background-image: url(../img/pattern_2.jpg);
+	background-repeat: repeat-x;
+	color: white;
+	text-align: center;
+}
+
+.foot a{
+	color: white;
+}
+
+.foot p{
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+
+.text{
+	color: grey;
+	font-style: italic;
+}
+
+.submit{
+	background-color: #8c1b1a;
+	margin: 0 auto;
+}
+
+.email1{
+	display: none;
+}
+
+header{
+	background-color: #8c1b1a;
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px; 
+}
+
+.head img{
+	width: 100%
+}
+
+.sidebar{
+	display: none;
+}
+
+
+.shows{
+
+}
+
+
+.shows h2{
+	color: #8c1b1a;
+	text-align: center;
+}
+
+.shows img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+.shows a {
+	background-color: #8c1b1a;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+}
+
+/***** SPECIFIC STYLES ************/
+/**********************************/
+
+@media screen and (min-width: 680px){
+
+	
+}
+
