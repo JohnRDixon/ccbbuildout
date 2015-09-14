@@ -1,0 +1,2 @@
+# ccbbuildout
+site build
