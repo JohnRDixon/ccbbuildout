@@ -40,8 +40,16 @@ img{
 	color: #af5017;
 	text-align: center;
 	font-style: italic;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	height: 20%;
+	margin-bottom: 20px;
 
 }
+
+
+
 
 .main_img img{
 	width: 320px;
@@ -87,11 +95,15 @@ img{
 	text-align: center;
 }
 
-.foot{
+footer{
 	background-image: url(../img/pattern_2.jpg);
 	background-repeat: repeat-x;
 	color: white;
 	text-align: center;
+}
+
+.foot{
+	background-image: url(../img/pattern_2.jpg);
 }
 
 .foot a{
@@ -117,6 +129,8 @@ img{
 	display: none;
 }
 
+
+
 header{
 	background-color: #8c1b1a;
 	color: white;
@@ -125,7 +139,6 @@ header{
 	padding-top: 10px; 
 	width: 100%;
 }
-
 
 .sidebar{
 	display: none;
@@ -147,6 +160,8 @@ header{
 	margin-bottom: 20px;
 	display: block;
 	margin: 0 auto;
+	box-shadow: 2px 2px 3px #bcbab3;
+	border: 2px solid white;
 }
 
 
@@ -196,7 +211,7 @@ header{
 
 .main_img img{
 	float: right;
-	width: 55%;
+	width: 68%;
 
 }
 
@@ -211,19 +226,22 @@ header{
 	float: left;
 }
 
+
 .shows ul{
 	list-style: none;
-	margin: 0 auto;
 	padding: 0px;
-	width: 100%
+	width: 100%;
+	text-align: center;
+
 
 	
 }
 
 .shows li{
-	width: 22%;
+	width: 24%;
 	display: inline-block;
 	vertical-align: top;
+	text-align: left;
 	
 }
 
@@ -246,15 +264,21 @@ header{
 
 
 .email1{
-	display: inline-block;
-	width: 20%;
-	position: relative;
-	left: 450px;
+	display: block;
 	padding: 0;
-
+	clear: both;
+	text-align: right;
 
 }
 
+.email1 h4{
+	color: #8d1c1b;
+}
+
+.email1 p{
+	font-style: italic;
+	text-align: right;
+}
 
 
 .text{
@@ -268,6 +292,38 @@ header{
 	color: white;
 	text-decoration: none;
 	border: none;
+}
+
+
+
+.ccb{
+	text-align: left;
+	float: left;
+	width: 50%;
+	padding-left: 10%
+
+}
+
+.links{
+	text-align: left;
+	float: right;
+	width: 40%;
+	margin: 0 auto;
+	padding-top: 20px;
+	vertical-align: top;
+
+
+}
+
+.membership a{
+	display: block;
+	width: 200px;
+	position: absolute;
+	bottom: -5px;
+	left: 5%;
+	color: #af5017;
+	margin-left: 0%;
+
 }
 
 
