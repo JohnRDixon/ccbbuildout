@@ -271,13 +271,20 @@ header{
 
 }
 
-.email1 h4{
+.sign{
 	color: #8d1c1b;
+	width: 15%;
+	font-weight: bold;
+	text-align: right;
+	display: inline-block;
 }
 
-.email1 p{
+.cajole{
 	font-style: italic;
 	text-align: right;
+	width: 15%;
+	display: inline-block;
+	
 }
 
 
