@@ -63,6 +63,18 @@ img{
 	font-weight: bold;
 	font-style: italic;
 }
+
+.site_nav{
+	height: auto;
+	26.0 4.0 -webkit- transition: height 2s ease ;
+}
+
+.site_nav:hover{
+	height: 200px;
+}
+
+
+
 .site_nav ul{
 	display: block;
 	padding: 0;
@@ -136,7 +148,7 @@ img{
 
 
 .main_img img{
-	width: 320px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -147,7 +159,7 @@ img{
 	font-family: sans-serif;
 	position: relative;
 	color: #af5017;
-	margin: 0 0 50px 0;
+	margin: 90px 0 50px 0;
 }
 
 .membership a{
@@ -294,7 +306,7 @@ header{
 	background-color: #f6f6f4;
 	border: 1px solid grey;
 	border-radius: 5px;
-	font-style: bold;
+	font-weight: bold;
 	padding: 10px;
 	font-weight: bold;
 
@@ -440,6 +452,10 @@ header{
 	color: #af5017;
 	margin-left: 0%;
 
+}
+
+.membership{
+	margin-top: 0;
 }
 
 
