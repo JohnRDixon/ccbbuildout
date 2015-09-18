@@ -29,30 +29,115 @@ img{
 	max-width: 100%;
 }
 
+.button {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.button a:link{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.button a:visited{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.button a:hover{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.button a:active{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+}
+.site_nav ul{
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: #ebeced;
+}
+
+.site_nav li{
+	display: block;
+	border-bottom: 1px solid grey;
+	background: #ebeced;
+	padding: 10px;
+	color: #8c1b1a;
+}
+
+.site_nav a{
+	display: block;
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+.site_nav a:visited{
+	color: #8c1b1a;
+}
+
+.site_nav a:hover{
+	color:orange;
+}
+
+.site_nav a:active{
+	color:#8c1b1a;
+}
+
+.site_nav.hidden{
+	display: none;
+}
+
+
 .wrapper{
 	width: 95%;
+	margin: 0 auto;
+}
+
+.william{
 	margin: 0 auto;
 }
 
 .banner{
 	background-image: url(../img/banner.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: #af5017;
 	text-align: center;
 	font-style: italic;
 	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-	height: 20%;
+	margin: 0 auto;
+	height: 30%;
 	margin-bottom: 20px;
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 10px;
 
 }
 
+.banner p{
+	margin: 0 auto;
+	font-size: large;
+}
 
 
 
 .main_img img{
 	width: 320px;
+	margin: 0 auto;
 }
 
 .membership{
@@ -62,7 +147,7 @@ img{
 	font-family: sans-serif;
 	position: relative;
 	color: #af5017;
-	margin: 90px 0 50px 0;
+	margin: 0 0 50px 0;
 }
 
 .membership a{
@@ -100,14 +185,17 @@ footer{
 	background-repeat: repeat-x;
 	color: white;
 	text-align: center;
+	background-size: contain;
 }
 
 .foot{
 	background-image: url(../img/pattern_2.jpg);
+	
 }
 
 .foot a{
 	color: white;
+	padding: 5px;
 }
 
 .foot p{
@@ -118,11 +206,13 @@ footer{
 .text{
 	color: grey;
 	font-style: italic;
+	margin-bottom: 50px;
 }
 
 .submit{
 	background-color: #8c1b1a;
 	margin: 0 auto;
+	border: none;
 }
 
 .email1{
@@ -172,7 +262,8 @@ header{
 	padding: 10px;
 	margin-top: 40px;
 	margin-bottom: 40px;
-	margin-left: 40px;
+	margin-left: 1px;
+	
 }
 
 /***** SPECIFIC STYLES ************/
@@ -269,6 +360,24 @@ header{
 	clear: both;
 	text-align: right;
 
+
+}
+
+.email1 p{
+	display: inline-block;
+
+}
+
+.email1 span{
+	display: block;
+	width: 100%;
+}
+
+.email_form{
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	margin-top: 16px;
 }
 
 .sign{
