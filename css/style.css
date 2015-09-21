@@ -64,15 +64,17 @@ img{
 	font-style: italic;
 }
 
-.site_nav{
-	height: auto;
-	26.0 4.0 -webkit- transition: height 2s ease ;
+.site_nav nav {
+    width: auto;
+    height: auto;
+    background: red;
+    /*-webkit-transition: width 2s ease;  For Safari 3.1 to 6.0 */
+    transition: height 2s ease-out;
 }
 
-.site_nav:hover{
-	height: 200px;
+.site_nav nav:active {
+    height: 300px;
 }
-
 
 
 .site_nav ul{
