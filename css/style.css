@@ -64,16 +64,17 @@ img{
 	font-style: italic;
 }
 
-.site_nav nav {
+.site_nav {
     width: auto;
-    height: auto;
-    background: red;
+    height: 300px;
+    overflow: hidden;
+
     /*-webkit-transition: width 2s ease;  For Safari 3.1 to 6.0 */
-    transition: height 2s ease-out;
+    transition: height 1s;
 }
 
-.site_nav nav:active {
-    height: 300px;
+.site_nav.hidden {
+    height: 0;
 }
 
 
@@ -111,10 +112,10 @@ img{
 	color:#8c1b1a;
 }
 
-.site_nav.hidden{
+/*.site_nav.hidden{
 	display: none;
 }
-
+*/
 
 .wrapper{
 	width: 95%;

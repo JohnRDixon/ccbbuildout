@@ -13,12 +13,10 @@ var Dropdown = function( button, nav ){
 		if( that.isHidden ){
 			
 			that.show();
-			
 		}
 		else{
 
 			that.hide();
-			
 		}
 
 		e.preventDefault();
